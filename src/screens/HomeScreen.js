@@ -22,6 +22,10 @@ const HomeScreen = (props) => {
             onPress={() => props.navigation.navigate('Counter')}
         />
         <Button
+            title="Go to counter reducer screen"
+            onPress={() => props.navigation.navigate('CounterReducer')}
+        />
+        <Button
             title="Go to colors screen"
             onPress={() => props.navigation.navigate('Colors')}
         />
@@ -33,6 +37,15 @@ const HomeScreen = (props) => {
             title="Go to square reducer screen"
             onPress={() => props.navigation.navigate('SquareReducer')}
         />
+        <Button
+            title="Go to text screen"
+            onPress={() => props.navigation.navigate('Text')}
+        />
+        <Button
+            title="Go to box screen"
+            onPress={() => props.navigation.navigate('Box')}
+        />
+
     </View>
   );
 };
